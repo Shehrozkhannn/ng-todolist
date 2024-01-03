@@ -1,0 +1,89 @@
+.main-container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-image: url("/userlist/src/assets/");
+}
+.user-details{
+  width: 38%;
+  height: 51px;
+  display:flex;
+  justify-content: space-around;
+}
+.fields{
+  display: flex;
+  align-items: center;
+}
+
+.input-fields form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.create-btn{
+  margin: 20px 39px;
+}
+.create-btn button{
+    height: 43px;
+}
+
+.users-list{
+  display: flex;
+  margin-top: 19px;
+  border: 1px solid #eaeaea;
+  width: 100%;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 17px;
+}
+
+
+.users-name{
+  height: 32px;
+  width: 171px;
+  cursor: pointer;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+.delete-btn button{
+    height: 39px;
+    margin-right: 10px;
+}
+input{
+  margin: 8px 0px;
+}
+label{
+  font-size: 19px;
+  font-family: sans-serif;
+}
+.add-user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+.add-user button{
+  margin-left: 18px;
+  border-radius: 18px;
+  font-size: 36px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  padding: 15px 0px 18px 6px;
+  width: 35px;
+}
+.add-user h2{
+  font-size: 32px;
+  margin-top: 4px;
+}
+
+.mat-form-field {
+  margin-right: 8px;
+}
+
+
